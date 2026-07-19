@@ -39,7 +39,7 @@ resource "aws_security_group" "ec2_sg" {
     }
 
     tags = {
-        Name = "ec2-instance-sg"
+        Name = "ec2-sg"
     }
 }
 
